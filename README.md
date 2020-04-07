@@ -1,6 +1,12 @@
 PixelPainter
 ============
 
+This PixelPainter has an easter egg, can you find it?
+Hint: Super Mario Bros release date.
+9, 13
+1, 9
+8, 5 
+
 > Coloring pixels in a grid
 
 ![sketch](http://i.imgur.com/6kLmYWp.png)

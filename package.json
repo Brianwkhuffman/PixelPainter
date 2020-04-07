@@ -1,0 +1,24 @@
+{
+  "name": "PixelPainter",
+  "version": "1.0.0",
+  "description": "PixelPainter ============",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brianwkhuffman/PixelPainter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brianwkhuffman/PixelPainter/issues"
+  },
+  "homepage": "https://brianwkhuffman.github.io/PixelPainter"
+}
