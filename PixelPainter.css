@@ -1,0 +1,101 @@
+/* font-family: 'Press Start 2P', cursive; */
+h1 {
+  display: none;
+}
+body {
+  /* background-color: black; */
+  display: flex;
+  flex-direction: row;
+  /* cursor: url("https://userstyles.org/style_screenshots/151374_after.png"), auto; */
+}
+.grid {
+  background-image: url("http://cdn.shopify.com/s/files/1/0822/1983/articles/boo-mario-pixel-art-pixel-art-mario-boo-8bit-ghost-supermario.png?v=1501130325");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 740px;
+  height: 441px;
+}
+.row {
+  display: flex;
+  width: 100%;
+  height: calc(100% / 22);
+}
+.pixel {
+  height: 100%;
+  width: calc(100% / 37);
+  background: transparent;
+  border: 1px solid black;
+  /* disable dragging below */
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.2s;
+}
+.pixel:hover {
+  background-color: grey;
+}
+.paletteBox {
+  width: 740px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  cursor: url("https://userstyles.org/style_screenshots/151374_after.png"), auto;
+}
+.pens {
+  border-radius: 8px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 50px;
+  width: calc(100% / 14);
+  height: 55px;
+  border: 2px solid black;
+  /* text highlight disable */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.pens:hover {
+  opacity: 0.8;
+}
+.buttons {
+  cursor: url("https://userstyles.org/style_screenshots/151374_after.png"), auto;
+  border-radius: 8px;
+  display: flex;
+  font-family: "Press Start 2P", cursive;
+  height: 50px;
+  width: 100px;
+  /* text highlight disable */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.buttons:hover {
+  background-color: salmon;
+}
+#title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 50px;
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+#itsme {
+  display: none;
+}
+#colorBox {
+  border: 1px solid black;
+  height: 60px;
+  width: 60px;
+  margin: 20%;
+  border-radius: 8px;
+}
+/* 
+@media (max-width: 700px) {
+} */
